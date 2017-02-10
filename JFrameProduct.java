@@ -132,6 +132,24 @@ public class JFrameProduct{
 		textPrice = new Text(shlProductManagement, SWT.NONE);
 		textPrice.setBounds(81, 210, 169, 21);
 		
+		Label lblQuantity = new Label(shlProductManagement, SWT.NONE);
+		lblQuantity.setBounds(10, 234, 55, 15);
+		lblQuantity.setText("Quantity:");
+		
+		textQuantity = new Text(shlProductManagement, SWT.NONE);
+		textQuantity.setBounds(81, 237, 169, 21);
+		
+		Label lblDescription = new Label(shlProductManagement, SWT.NONE);
+		lblDescription.setBounds(10, 267, 55, 15);
+		lblDescription.setText("Description:");
+		
+		textDescription = new Text(shlProductManagement, SWT.NONE);
+		textDescription.setBounds(81, 264, 169, 21);
+		
+		
+		
+		
+		
 		
 		
 		
